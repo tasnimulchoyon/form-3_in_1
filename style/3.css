@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url("../img/bifb.jpg");
+    
+    height: 100vh;
+    
+
+}
+.wrapper{
+    width: 1144px;
+    padding: 50px 0;
+    
+}
+
+.form-section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aquamarine; */
+   
+   
+    
+    
+    
+}
+
+.bg{
+    padding: 25px ;
+   margin: auto;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 10px;
+}
+
+.image{
+    text-align: center;
+}
+
+.image img{
+    padding: 20px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 50%;
+}
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.name input{
+    width: 42%;
+    
+}
+.name .fnn{
+    margin-right: 5px;
+}
+
+input{
+    
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    background-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 15px;
+    
+}
+.btn a{
+    color: white;
+}
+.fa-angle-double-right{
+    color: white;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.459);
+    background-color: black;
+    border-radius: 8px;
+}
+
+i{
+    color: black;
+    text-align: center;
+    margin-left: 8px;
+}
+
+::placeholder{
+    color: black;
+
+}
+
+
+
+
+
+
+.m-btn{
+    text-align: center;
+    background-color: transparent;
+}
+.m-btn a{
+    font-size: 10px;
+    background-color: transparent;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid rgba(180, 179, 179, 0.943);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    background-color: transparent;
+}
+.m-btn a:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 0);
+}
+/* .r a{
+    font-size: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+
+} */
